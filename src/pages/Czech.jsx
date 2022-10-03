@@ -2,10 +2,10 @@ import React from "react";
 import Level1 from "./Level1";
 import Level2 from "./Level2";
 import { Routes, Route, Link } from "react-router-dom";
-function Page1() {
+function Czech() {
   return (
     <>
-      <h2>Page1</h2>
+      <h2>Czech Republic</h2>
       <div>
         <Link to="/page/level1">
           <Level1 />
@@ -26,4 +26,4 @@ function Page1() {
   );
 }
 
-export default Page1;
+export default Czech;

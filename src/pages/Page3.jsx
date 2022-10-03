@@ -2,7 +2,7 @@ import React from "react";
 import Level1 from "./Level1";
 import { Routes, Route, Link } from "react-router-dom";
 
-function Page2() {
+function Page3() {
   return (
     <>
       <h2>Page3</h2>
@@ -17,4 +17,4 @@ function Page2() {
   );
 }
 
-export default Page2;
+export default Page3;

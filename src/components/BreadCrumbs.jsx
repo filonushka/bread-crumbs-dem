@@ -23,7 +23,6 @@ const BreadCrumbs = () => {
           const routeTo = `/${pathnames.slice(0, index + 1).join("/")}`;
           const isLast = index === pathnames.length - 1;
 
-          console.log(name.charAt(0).toUpperCase() + name.slice(1));
           return isLast ? (
             <Typography key={name}>
               {name.charAt(0).toUpperCase() + name.slice(1)}

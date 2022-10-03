@@ -77,9 +77,21 @@ body {
 
 .footer__link a {
 }
-
 .footer__link a svg {
   height: 30px;
   width: 30px;
   fill: #efefef;
+}
+
+.breadcrumbs {
+  font-size: 11px;
+}
+
+.breadcrumbs ol li,
+.breadcrumbs nav ol li p {
+  font-size: 14\px;
+}
+
+.slide-1 {
+  background-image: url("https://images.unsplash.com/photo-1563046937-9824d5725660?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80");
 }
